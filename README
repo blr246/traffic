@@ -1,0 +1,18 @@
+Copyright 2011-2012 Brandon L. Reiss
+
+This software package contains implementations of two vehicle density
+estimators designed for daytime and nighttime traffic density estimation. The
+daytime estimator uses a Gaussian Mixture Model background subtraction
+technique in order to label candidate pixels that correspond the vehicular
+traffic. The nighttime technique uses a simple median filtering, averaging, and
+morpholocial operations to perform bright object detection in a nighttime
+sequence of traffic images. Both methods demonstrate potential to characterize
+traffic density by the correlation of their output signals to the obeserved
+traffic density in some image sequences. The nighttime algorithm is more robust
+mostly due to the reduced complexity of the problem of finding bright
+headlights in a mostly dark image.
+
+The author of the software is Brandon L. Reiss, and he can be reached at
+blr246@nyu.edu. All uses of the software are subject to the license agreement
+prepended to each source file. A copy of the license is also included inside
+the file called LICENSE.

@@ -1,0 +1,6 @@
+*~
+*.bak
+tags
+*.swp
+.gitignore
+*.pyc
